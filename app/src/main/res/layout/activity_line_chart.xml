@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_line_chart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bo.zxingdemo.LineChartActivity"
+    >
+    <com.example.bo.zxingdemo.view.LineChartView
+        android:id="@+id/lcv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        app:lineColor="#FF0000"
+        app:textColor="#ABABAB"
+        app:textSize="12dp"
+        >
+
+    </com.example.bo.zxingdemo.view.LineChartView>
+</RelativeLayout>

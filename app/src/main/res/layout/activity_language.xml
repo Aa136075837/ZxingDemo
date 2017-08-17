@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_language"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bo.zxingdemo.LanguageActivity"
+    >
+    <EditText
+        android:id="@+id/lang_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入播报内容"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lang_btn"
+        android:text="play"
+        />
+</LinearLayout>

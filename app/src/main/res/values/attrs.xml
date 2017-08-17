@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="MyEditText">
+      <attr name="isContent" format="boolean">fasle</attr>
+  </declare-styleable>
+    
+    <declare-styleable name="LineChartView">
+        <attr name="axisColor" format="color"/> <!--坐标轴颜色-->
+        <attr name="axisWidth" format="dimension"/> <!--坐标轴宽度-->
+        <attr name="textColor" format="color"/> <!--字体颜色-->
+        <attr name="textSize" format="dimension"/> <!--字体大小-->
+        <attr name="lineColor" format="color"/> <!--折线颜色-->
+        <attr name="bgColor" format="color"/> <!--背景色-->
+    </declare-styleable>
+</resources>

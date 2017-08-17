@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_heart"
+        android:icon="@drawable/ic_time_off_click"
+        android:title="off"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/icon_img_click"
+        android:title="图片"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_remove"
+        android:title="移除"
+        app:showAsAction="never" />
+</menu>
